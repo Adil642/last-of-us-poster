@@ -1,0 +1,43 @@
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white ;
+    font-size: 1.8rem;
+    margin-left: 5%;
+
+    text-shadow: 
+  0 0 5px rgba(255, 245, 230, 0.8),
+  0 0 15px rgba(255, 235, 210, 0.5),
+  0 0 30px rgba(255, 225, 190, 0.3);
+  animation: glow-pulse 3s ease-in-out infinite alternate;
+
+}
+/*This is to decide ki starting ki kitna percent opacity hoga and end me kitna */
+@keyframes glow-pulse {
+  from { opacity: 5%; }
+  to { opacity: 100%; }
+}
+
+p{
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 10px 350px auto auto;  
+    text-align: justify;
+  text-justify: inter-word;
+    
+}
+
+body{
+    background-color: black;
+}
+.poster{
+    width: 50%;
+    margin-left: 35%;
+}
+.motivation-img{
+    width: 400px;
+    height: auto;
+    border: 20px solid white;
+}
